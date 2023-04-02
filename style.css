@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+p{
+    color: aliceblue;
+    font-family:'Mukta', sans-serif;
+    font-size: 1.2rem;
+}
+/* -------------nav bar-------------------- */
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    color: rgb(231, 186, 101);
+}
+.logo{
+    color: rgb(69, 213, 165);
+    margin-left: 75px;
+    font-family: Lobster,sans-serif;
+    font-size: 2.6rem;
+    cursor: none;
+}
+.fleximg{
+   display: flex;
+}
+img{
+    margin-top:-22px;
+    margin-left: 2px;
+   
+}
+ul{
+    display: flex;
+   
+}
+li{
+    margin-top: 12px;
+    font-size: 1.2rem;
+    padding: 2px 100px 1px 39px;
+    list-style: none;
+    cursor: pointer;
+    font-family:'Averta PE',sans-serif;
+    color:#183b56;
+}
+li:hover{
+    color: aquamarine;
+    transition: 1.2s;
+}
+
+/* ----------------------Section1----------------------------- */
+.P{
+    color: rgb(231, 186, 101);
+    font-size: 1.6rem;
+    font-family: Lobster,sans-serif;
+}
+.para{
+    color: #577592;
+    margin-top: 111px;
+    margin-left: 106px;
+    margin-right: 250px;
+}
+.img1{
+    margin-top: 50px;
+    margin-left: 2px;
+    margin-right: 150px;
+}
+/* ---------------------Section2------------------------------- */
+.Searchbox{
+    background-color: #cbcaca;
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    margin-left: 440px;
+    margin-top: 5%;
+}
+input{
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 25px;
+}
+.fa-magnifying-glass:hover{
+      color: rgb(10, 115, 157);
+      cursor: pointer;
+}
+
+/* -------------------------------section3------------------------------- */
+
+.box0 img{
+    height: 450px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 18px rgba(6, 11, 11, 0.851);
+}
+.box0{
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 70px;
+    cursor: pointer;
+    
+}
+.box0:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.box1 img{
+    height: 450px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 18px rgba(6, 11, 11, 0.851);
+
+}
+.box1{
+    border-radius: 50px;
+
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.box1:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.box2 img{
+    height: 450px;
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 18px rgba(6, 11, 11, 0.851);
+
+}
+.box2{
+
+    
+    border-radius: 50px;  
+    margin-top: 100px;
+    margin-right: 43px;
+    cursor: pointer;
+    box-shadow: 2px 2px 18px rgba(6, 11, 11, 0.851);
+
+
+}
+.box2:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spaceser{
+    height: 100vh;
+}
